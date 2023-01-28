@@ -2,6 +2,7 @@ const inputEl = document.querySelector("#name-input");
 const outputEl = document.querySelector("#name-output");
 
 let currentText = inputEl.value ? "Anonymous" : inputEl.value;
+outputEl.textContent = currentText;
 
 inputEl.addEventListener("input", toMakeOutputText);
 
