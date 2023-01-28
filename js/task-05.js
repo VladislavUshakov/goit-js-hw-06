@@ -1,7 +1,8 @@
 const inputEl = document.querySelector("#name-input");
 const outputEl = document.querySelector("#name-output");
 
-let currentText = "";
+let currentText = "Anonymous";
+outputEl.textContent = currentText;
 
 inputEl.addEventListener("input", toMakeOutputText);
 
